@@ -45,7 +45,7 @@ spec:
         tier: frontend
     spec:
       containers:
-      - image: elasticsearch: 7.13.1
+      - image: elasticsearch:7.13.1
         name: elasticsearch
         env:
         - name: ELASTICSEARCH_DB_HOST
